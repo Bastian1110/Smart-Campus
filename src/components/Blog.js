@@ -1,6 +1,6 @@
 import React from "react";
 import Podcast from "../assets/Podcast.png";
-import { Resbaladilla } from "../assets/blog";
+import { Resbaladilla, ForoDeEconomia } from "../assets/blog";
 
 function Blog() {
   return (
@@ -137,11 +137,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img
-                    src="https://cdn.tailgrids.com/1.0/assets/images/blogs/blog-01/image-02.jpg"
-                    alt="foto"
-                    className="w-full"
-                  />
+                  <img src={ForoDeEconomia} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -159,7 +155,7 @@ function Blog() {
                      mb-5
                      "
                   >
-                    25 Agosto 2022
+                    3 de Marzo 2023
                   </span>
                   <h3>
                     <a
@@ -176,16 +172,16 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                      Inauguración de la plataforma
+                      Uniendo acciones para la emergencia climatica
                     </a>
                   </h3>
                   <p className="text-base text-body-color">
-                    Presentado por alumnas y alumnos de Campus Inteligente y
-                    Dra. Marisol Ugalde. <br></br>
-                    Inauguración: Mtra. Verónica Pedrero y Mtro. Ramiro Estrada
+                    Uniendo acciones para la emergencia climatica <br></br>
+                    Conferencia Magistral, foros, talleres, exposiciones y
+                    activaciones.
                     <br></br>
-                    11:00 am<br></br>
-                    Explanada de CEDETEC
+                    9:00 a 18:00 horas<br></br>
+                    Centro de congresos.
                   </p>
                 </div>
               </div>
