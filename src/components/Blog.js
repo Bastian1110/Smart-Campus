@@ -1,6 +1,6 @@
 import React from "react";
 import Podcast from "../assets/Podcast.png";
-import { Resbaladilla, ForoDeEconomia } from "../assets/blog";
+import { Resbaladilla, ForoDeEconomia, Basura } from "../assets/blog";
 
 function Blog() {
   return (
@@ -82,7 +82,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={Podcast} alt="foto" className="w-full" />
+                  <img src={Basura} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -100,11 +100,10 @@ function Blog() {
                      mb-5
                      "
                   >
-                    29 Agosto 2022
+                    10 de Marzo 2023
                   </span>
                   <h3>
-                    <a
-                      href="https://open.spotify.com/episode/5J9nmPPY4XfwlTBm4OAADy?si=b2329887b4894a70"
+                    <span
                       className="
                         font-semibold
                         text-xl
@@ -117,19 +116,13 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                      Podcast "En Otro Plano"
-                    </a>
+                      ¿Qué hacemos con la basura?
+                    </span>
                   </h3>
                   <p className="text-base text-body-color">
-                    Entrevista con alumnos que nos hablan sobre el Campus
-                    Inteligente<br></br>
-                    Disponible{" "}
-                    <a
-                      href="https://open.spotify.com/episode/5J9nmPPY4XfwlTBm4OAADy?si=b2329887b4894a70"
-                      className="font-bold hover:text-primary"
-                    >
-                      Aquí!
-                    </a>
+                    10:00 am. <br />
+                    Conferencia con Isaac Peraire I Soler, Director de la
+                    Agenica de Residuos de Cataluña
                   </p>
                 </div>
               </div>
