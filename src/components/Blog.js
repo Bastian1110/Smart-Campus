@@ -122,7 +122,7 @@ function Blog() {
                   <p className="text-base text-body-color">
                     10:00 am. <br />
                     Conferencia con Isaac Peraire I Soler, Director de la
-                    Agenica de Residuos de Cataluña
+                    Agencia de Residuos de Cataluña
                   </p>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import {client, redirectUrl} from "../constants"
-import Logo from "../assets/Logo.jpeg";
+import NewLogo from "../assets/NewLogo.jpeg";
 
 let authenticators = []
 const listAllLogin = async () =>{
@@ -41,7 +41,7 @@ const NavBar = () => {
   const NavbarHelper = ({ menuOpen, setMenuOpen }) => (
     <div className="flex items-center justify-between p-4">
       <div className="flex items-center">
-        <img src={Logo} alt="LogoTec" className="w-10 mr-2"/>
+        <img src={NewLogo} alt="LogoTec" className="w-16 mr-4 ml-2"/>
         <section>
             <a href="/" className="text-xl font-bold no-underline text-gray-800 hover:text-gray-600">CEM</a>
             <p className="-mt-1 ml-0.5">Campus Inteligente</p>
