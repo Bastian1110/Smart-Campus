@@ -1,5 +1,5 @@
-import Resbaladilla from "../blog/Resbaladilla.jpeg";
 import ForoDeEconomia from "../blog/foro.jpeg";
 import Basura from "../blog/basura.jpeg";
+import podcast from "../blog/podcast.png";
 
-export { Resbaladilla, ForoDeEconomia, Basura };
+export { podcast, ForoDeEconomia, Basura };
