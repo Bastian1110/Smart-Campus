@@ -1,6 +1,5 @@
 import React from "react";
-import Podcast from "../assets/Podcast.png";
-import { Resbaladilla, ForoDeEconomia, Basura } from "../assets/blog";
+import { ForoDeEconomia, Basura, podcast } from "../assets/blog";
 
 function Blog() {
   return (
@@ -33,7 +32,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={Resbaladilla} alt="foto" className="w-full" />
+                  <img src={podcast} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -51,7 +50,7 @@ function Blog() {
                      mb-5
                      "
                   >
-                    20 Septiembre 2022
+                    23 Marzo 2023
                   </span>
                   <h3>
                     <a
@@ -68,14 +67,13 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                      Inauguración del Proyecto "Cuidado Diversión"
+                      Extreno de Contra reloj. Temporada 5 episodio 1. 
                     </a>
                   </h3>
-                  <p className="text-base text-body-color">
-                    12:00am <br></br>
-                    Escaleras de Aulas IV
-                  </p>
-                  <p className="text-base text-body-color">¡Inténtalo!</p>
+                  <a className="text-base text-body-color">
+                  Encuentralo en sportify con el siguiente link: <br></br>
+                  </a>
+                  <a href="https://open.spotify.com/episode/4nYs5TLnRie4zzVnn4YzYg?si=fSE_Ozc8Q4OuUStgz2SuWA" className="text-base text-body-color hover:text-primary">https://open.spotify.com/episode/4nYs5TLnRie4zzVnn4YzYg?si=fSE_Ozc8Q4OuUStgz2SuWA</a>
                 </div>
               </div>
             </div>
