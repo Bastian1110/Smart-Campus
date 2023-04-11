@@ -67,7 +67,7 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                      Extreno de Contra reloj. Temporada 5 episodio 1. 
+                      Estreno de Contra reloj. Temporada 5 episodio 1. 
                     </a>
                   </h3>
                   <a className="text-base text-body-color">
