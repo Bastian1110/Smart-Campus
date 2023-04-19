@@ -1,5 +1,6 @@
 import React from "react";
-import { ForoDeEconomia, Basura, podcast } from "../assets/blog";
+import { ForoDeEconomia, podcast } from "../assets/blog";
+import ReciclaTec from "../assets/blog/ReciclaTec.jpeg";
 
 function Blog() {
   return (
@@ -80,7 +81,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={Basura} alt="foto" className="w-full" />
+                  <img src={ReciclaTec} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -98,7 +99,7 @@ function Blog() {
                      mb-5
                      "
                   >
-                    10 de Marzo 2023
+                    21 de Abril 2023
                   </span>
                   <h3>
                     <span
@@ -114,13 +115,13 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                      ¿Qué hacemos con la basura?
+                      Recicla Tec
                     </span>
                   </h3>
                   <p className="text-base text-body-color">
-                    10:00 am. <br />
-                    Conferencia con Isaac Peraire I Soler, Director de la
-                    Agencia de Residuos de Cataluña
+                    8:00 a 17:00 horas <br />
+                    Plaza borregos <br/>
+                    Recicla tec te invita a participar en el primer evento nacional del Reciclaje.
                   </p>
                 </div>
               </div>
