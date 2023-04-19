@@ -1,6 +1,7 @@
 import React from "react";
-import { ForoDeEconomia, podcast } from "../assets/blog";
+import { podcast } from "../assets/blog";
 import ReciclaTec from "../assets/blog/ReciclaTec.jpeg";
+import Ciclista from "../assets/blog/Ciclista.jpeg";
 
 function Blog() {
   return (
@@ -129,7 +130,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={ForoDeEconomia} alt="foto" className="w-full" />
+                  <img src={Ciclista} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -147,7 +148,7 @@ function Blog() {
                      mb-5
                      "
                   >
-                    3 de Marzo 2023
+                    21 de abril 2023
                   </span>
                   <h3>
                     <a
@@ -164,16 +165,13 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                      Uniendo acciones para la emergencia climatica
+                      ¿Hacia dónde avanza la infraestructura ciclista en México?
                     </a>
                   </h3>
                   <p className="text-base text-body-color">
-                    Uniendo acciones para la emergencia climatica <br></br>
-                    Conferencia Magistral, foros, talleres, exposiciones y
-                    activaciones.
-                    <br></br>
-                    9:00 a 18:00 horas<br></br>
-                    Centro de congresos.
+                    10:30 a 14:30 horas <br/>
+                    Formato virtul <br/>
+                    Conoce Las experiencias desde diversas perspectivas y localidades <br/>
                   </p>
                 </div>
               </div>
