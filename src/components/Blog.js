@@ -1,7 +1,5 @@
 import React from "react";
-import { podcast } from "../assets/blog";
-import ReciclaTec from "../assets/blog/ReciclaTec.jpeg";
-import Ciclista from "../assets/blog/Ciclista.jpeg";
+import {recicla, ciclista,simulacion } from "../assets/blog";
 
 function Blog() {
   return (
@@ -34,7 +32,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={podcast} alt="foto" className="w-full" />
+                  <img src={simulacion} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -52,7 +50,7 @@ function Blog() {
                      mb-5
                      "
                   >
-                    23 Marzo 2023
+                    26 de abril 2023
                   </span>
                   <h3>
                     <a
@@ -69,20 +67,21 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                      Estreno de Contra reloj. Temporada 5 episodio 1. 
+                     Conferencia "Simulación vial en el diseño de ciudades" 
                     </a>
                   </h3>
                   <a className="text-base text-body-color">
-                  Encuentralo en sportify con el siguiente link: <br></br>
+                    16:00 a 17:00 horas <br/>
+                  Registrate aqui: <br></br>
                   </a>
-                  <a href="https://open.spotify.com/episode/4nYs5TLnRie4zzVnn4YzYg?si=fSE_Ozc8Q4OuUStgz2SuWA" className="text-base text-body-color hover:text-primary">https://open.spotify.com/episode/4nYs5TLnRie4zzVnn4YzYg?si=fSE_Ozc8Q4OuUStgz2SuWA</a>
+                  <a href="https://drive.google.com/drive/folders/1yg4PbcbXvN6ebTpZsyNnBM5FLewciHCP" className="text-base text-body-color hover:text-primary">https://drive.google.com/drive/folders/1yg4PbcbXvN6ebTpZsyNnBM5FLewciHCP</a>
                 </div>
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={ReciclaTec} alt="foto" className="w-full" />
+                  <img src={recicla} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -130,7 +129,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={Ciclista} alt="foto" className="w-full" />
+                  <img src={ciclista} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
