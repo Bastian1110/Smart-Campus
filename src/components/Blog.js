@@ -1,5 +1,5 @@
 import React from "react";
-import {recicla, ciclista,simulacion } from "../assets/blog";
+import {recicla, ciclista, rodada } from "../assets/blog";
 
 function Blog() {
   return (
@@ -32,7 +32,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={simulacion} alt="foto" className="w-full" />
+                  <img src={rodada} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -50,7 +50,7 @@ function Blog() {
                      mb-5
                      "
                   >
-                    26 de abril 2023
+                    Viernes 19 de Mayo
                   </span>
                   <h3>
                     <a
@@ -67,14 +67,13 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                     Conferencia "Simulación vial en el diseño de ciudades" 
+                     Primera Rodada CEM 2023 
                     </a>
                   </h3>
                   <a className="text-base text-body-color">
-                    16:00 a 17:00 horas <br/>
-                  Registrate aqui: <br></br>
+                    8:00 am - 6:00 pm <br/>
+                    Pedalea por un campus más sostenible <br/>
                   </a>
-                  <a href="https://drive.google.com/drive/folders/1yg4PbcbXvN6ebTpZsyNnBM5FLewciHCP" className="text-base text-body-color hover:text-primary">https://drive.google.com/drive/folders/1yg4PbcbXvN6ebTpZsyNnBM5FLewciHCP</a>
                 </div>
               </div>
             </div>
@@ -169,7 +168,7 @@ function Blog() {
                   </h3>
                   <p className="text-base text-body-color">
                     10:30 a 14:30 horas <br/>
-                    Formato virtul <br/>
+                    Formato virtual <br/>
                     Conoce Las experiencias desde diversas perspectivas y localidades <br/>
                   </p>
                 </div>
