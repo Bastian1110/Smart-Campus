@@ -4,5 +4,6 @@ import podcast from "../blog/podcast.png";
 import recicla from "../blog/ReciclaTec.jpeg";
 import ciclista from "../blog/Ciclista.jpeg";
 import simulacion from "../blog/simulacion.jpeg";
+import rodada from "../blog/rodada.jpeg";
 
-export { podcast, ForoDeEconomia, Basura, recicla, ciclista,simulacion };
+export { podcast, ForoDeEconomia, Basura, recicla, ciclista,simulacion, rodada };
