@@ -1,5 +1,5 @@
 import React from "react";
-import {recicla, ciclista, rodada } from "../assets/blog";
+import { initnerario, ciclista, rodada } from "../assets/blog";
 
 function Blog() {
   return (
@@ -67,12 +67,18 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                     Primera Rodada CEM 2023 
+                      Primera Rodada CEM 2023
                     </a>
                   </h3>
+                  <a
+                    className="block text-black hover:scale-105 hover:bg-blue-600 hover:text-white transition-all from-neutral-300 p-2 rounded-lg border-2 border-blue-600 text-center w-[80%] mb-2"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfuSpmtldz8b-7PnQmTZO-w6rEOPvaZgGT7fCnjJMu-pX05Vg/viewform?usp=sharing"
+                  >
+                    Encuesta Posterior
+                  </a>
                   <a className="text-base text-body-color">
-                    8:00 am - 6:00 pm <br/>
-                    Pedalea por un campus más sostenible <br/>
+                    8:00 am - 6:00 pm <br />
+                    Pedalea por un campus más sostenible <br />
                   </a>
                 </div>
               </div>
@@ -80,7 +86,7 @@ function Blog() {
             <div className="w-full md:w-1/2 lg:w-1/3 px-4">
               <div className="max-w-[370px] mx-auto mb-10">
                 <div className="rounded overflow-hidden mb-8">
-                  <img src={recicla} alt="foto" className="w-full" />
+                  <img src={initnerario} alt="foto" className="w-full" />
                 </div>
                 <div>
                   <span
@@ -98,7 +104,7 @@ function Blog() {
                      mb-5
                      "
                   >
-                    21 de Abril 2023
+                    19 de Mayo2023
                   </span>
                   <h3>
                     <span
@@ -114,13 +120,13 @@ function Blog() {
                         hover:text-primary
                         "
                     >
-                      Recicla Tec
+                      Talleres Rodada
                     </span>
                   </h3>
                   <p className="text-base text-body-color">
-                    8:00 a 17:00 horas <br />
-                    Plaza borregos <br/>
-                    Recicla tec te invita a participar en el primer evento nacional del Reciclaje.
+                    9:00 a 17:00 horas <br />
+                    Salón de Congresos <br />
+                    Participa en los talleres relacionados al ciclismo.
                   </p>
                 </div>
               </div>
@@ -167,9 +173,10 @@ function Blog() {
                     </a>
                   </h3>
                   <p className="text-base text-body-color">
-                    10:30 a 14:30 horas <br/>
-                    Formato virtual <br/>
-                    Conoce Las experiencias desde diversas perspectivas y localidades <br/>
+                    10:30 a 14:30 horas <br />
+                    Formato virtual <br />
+                    Conoce Las experiencias desde diversas perspectivas y
+                    localidades <br />
                   </p>
                 </div>
               </div>
