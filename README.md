@@ -32,15 +32,10 @@ npm install
 npm start
 ```
 
-## Desarrolladores
+## Desarrolladores Actuales
 - Harumi Manzano
 - Sebastian Mora
-- German Guzman
-- Ricardo Condado
-- Israel Sánchez
-- Jose Angel Garcia
-- Jair Jimarez
-- 
+
 ## Ayudanos!
 Si tienes conocimiento sobre servidores, desarrollo web o algo parecido y estas
 interesado en participar en el proyecto manda un correo a : a01746423@tec.mx
